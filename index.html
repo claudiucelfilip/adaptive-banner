@@ -42,8 +42,8 @@
 				mix-blend-mode: multiply;
 			}
 			.adaptive-badge-wrapper .target2 {
-				mix-blend-mode:overlay;
-				opacity: 0.5;
+				mix-blend-mode: soft-light;
+				opacity: 1;
 			}
 			.adaptive-badge {
 				width: 100%;
@@ -51,26 +51,28 @@
 				/* This is the key part! */
 			}
 
-			/* Brand Backgrounds */
 			.bg-black {
 				background-color: #070707;
-			} /* WooCommerce Purple */
-			.bg-grey {
+			}
+			.bg-gray {
 				background-color: #dfdfdf;
-			} /* WordPress VIP Gold */
+			}
+			.bg-white {
+				background-color: #fff;
+			}
 			.bg-blue {
 				background-color: #4064ec;
-			} /* A plausible "Dotcom" blue */
+			}
 			.bg-purple {
 				background-color: #9247ff;
-			} /* VIP Black */
+			}
 			.bg-yellow {
 				background-color: #e0a54e;
 			}
 		</style>
 	</head>
 	<body>
-		<h1>Adaptive Badge Test (multiply + overlay)</h1>
+		<h1>Adaptive Badge Test (multiply + soft-light)</h1>
 
 
 		<div class="container bg-gray">
